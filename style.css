@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    text-align: center;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.game{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.game-items {
+    margin-top: 50px;
+    height: 30vh;
+    width: 30vh;
+    margin-right: 20px;
+    background-color: #cdb4db;
+    border: none;
+    border-radius: 1rem;
+    font-size: 150px;
+    color: #34623F;
+    border: 2px solid transparent;
+}
+
+.para{
+color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.score-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#player-score{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+margin-right: 30px;
+background-color: black;
+color: white;
+height:6vh;
+width: 14vw;
+font-size: 30px;
+}
+#computer-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+height:6vh;
+width: 14vw;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+
+}
+.congo-box{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 10vh;
+text-align: center;
+background-color: black;
+color: white;
+font-size: 4rem;
+border-radius: 10px;
+margin-bottom: 90px;
+margin-top: 50px;
+border-radius: 1rem;
+}
+
+.game-items:hover {
+    background-color: #b392ac;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#user-score{
+    margin-left: 5px;
+    font-size: 3rem;
+}
+#comp-score{
+    margin-left: 5px;
+    font-size: 3rem;
+}
+
+
