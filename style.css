@@ -62,7 +62,7 @@ font-size: 3rem;
 height:6vh;
 color: white;
 background-color: black;
-
+padding:16px;
 }
 #computer-score{
     display: flex;
@@ -73,7 +73,7 @@ background-color: black;
     font-size: 3rem;
     color: white;
     background-color: black;
-
+padding:16px;
 }
 .congo-box{
     padding: 10px;
